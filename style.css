@@ -1,0 +1,86 @@
+/* write your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-color: rgb(29, 36, 77);
+  overflow-x: hidden;
+}
+.home {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  position: relative;
+}
+.home h1 {
+  margin-top: 25vh;
+  font-family: "Montez", cursive;
+  font-size: 40px;
+  font-weight: 200;
+  color: rgb(252, 252, 252);
+}
+.home p {
+  margin-top: 40px;
+  font-family: "Montez", cursive;
+  font-size: 55px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+.home h3 {
+  margin-top: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 68px;
+  font-weight: bold;
+  color: #f1c21b;
+}
+.home img {
+  position: absolute;
+  z-index: 3;
+  float: right;
+  size: cover;
+  height: 600px;
+  margin-left: 100vh;
+  top: 190px;
+}
+.home svg {
+  top: 50px;
+  left: 600px;
+  width: 70%;
+  position: absolute;
+  z-index: 2;
+}
+
+#icon1 {
+  right: 97%;
+  top: 70%;
+  width: 40px;
+  height: auto;
+}
+#icon2 {
+  right: 90.5%;
+  top: 69.5%;
+  width: 75px;
+  height: auto;
+}
+#icon3 {
+  right: 86.5%;
+  top: 70.2%;
+  width: 38px;
+  height: auto;
+}
+#icon4 {
+  right: 81%;
+  top: 70.2%;
+  width: 40px;
+  height: auto;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
