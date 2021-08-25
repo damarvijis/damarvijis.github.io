@@ -1,3 +1,14 @@
+// navbar
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if (this.scrollY > 20) {
+      $(".navbar").addClass("sticky");
+    } else {
+      $(".navbar").removeClass("sticky");
+    }
+  });
+});
+// typing
 let line = document.getElementById("slogan");
 let txts = [" UI/UX Designer", " Full-Stack Developer", " Freelancer"];
 let speed = 100;
